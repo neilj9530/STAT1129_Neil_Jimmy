@@ -1,0 +1,33 @@
+favColors = ["Blue", "Red", "Green", "Teal", "Pink"]
+print(type(favColors))
+print(favColors)
+
+numList = list(range(30, 63, 3))
+print(numList)
+
+numTuple = tuple(numList)
+print(type(numTuple))
+print(numTuple)
+
+newList = []
+print(newList)
+
+newList.extend([0, 1, 2, 3, 4, 5])
+print(newList)
+
+newList.remove(2)
+print(newList)
+
+newList.insert(2, 2.0)
+print(newList)
+
+print(len(newList)) 
+print(max(newList))
+print(min(newList))
+
+s = list(range(1, 11, 1))
+print(s)
+
+sumItems = (s[0] + s[1] + s[2] + s[3] + s[4] + 
+            s[5] + s[6] + s[7] + s[8] + s[9])
+print(sumItems)
